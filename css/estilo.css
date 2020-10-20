@@ -1,0 +1,201 @@
+/* Todas */
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+header{
+    margin: 30px 0px 30px 0px;
+
+}
+
+#formas_pagamento{
+    color: red;
+    font-weight: bold;
+
+}
+
+.menu{
+
+    background-color:#ff0000;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+
+}
+
+.menu  a{
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    width: 20%;
+    
+    
+    
+}
+
+.menu a img{
+    width: 100px;
+}
+
+.rodape{
+    margin-top: 120px;
+    text-align: center;
+}
+
+.rodape img{
+    width: 450px;
+    height: 60px;
+    margin-bottom: 10px;
+}
+
+/*Fim todos*/
+
+
+/* index */
+
+#mainIndex{
+    margin-top: 50px;
+    margin-bottom: 120px;
+}
+
+/* Fim index */
+
+
+/* produtos */
+
+#cateprod{
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.categorias{
+    width: 20%;
+
+}
+
+.categorias h3{
+    margin-left: 39px;
+}
+
+.categorias ul li {
+    list-style: none;
+    text-align: left;
+}
+
+.produtos{
+    width: 80%;
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    
+    
+}
+
+.box_produto{
+    
+    width: 25%;
+    text-align: center;
+    margin-bottom: 30px;
+    
+}
+
+.box_produto img{
+    width: 130px;
+    height: 130px;
+}
+
+
+
+.box_produto hr{
+    width: 230px;
+}
+
+.velho{
+    text-decoration:line-through;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.novo{
+    color: red;
+    margin-top: 0px;
+    padding-top: 5px;
+}
+
+
+/* Fim produtos*/
+
+
+
+/* lojas*/
+
+#lojas{
+    width: 100%;
+    display: flex;
+    margin-left: 150px;
+    
+    
+}
+
+.endereco{
+    width: 33%;
+    
+    
+}
+
+/* Fim lojas */
+
+
+
+/*Contato*/
+
+#contato{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    margin-bottom: 30px;
+    
+}
+
+
+#item1{
+    margin:auto;
+    text-align: center;
+    display: flex;
+}
+
+#item1 img{
+    width: 70px;
+}
+
+#item2{
+    margin:auto;
+    text-align: center;
+    display: flex;
+    
+}
+#item2 img{
+    width: 70px;
+}
+
+.formulario{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.formulario textarea{
+    width: 240px;
+    height: 150px;
+}
+
+#envia{
+ margin-top: 15px;   
+}
+/*Fim contato*/
+
+
