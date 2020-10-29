@@ -1,20 +1,9 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-
-    <meta charset="UTF-8">
+<?php include_once('../includes/head.php');?>
     <title>Lojas</title>
-    <link rel="stylesheet" href="../css/estilo.css">
-
 </head>
 <body>
     
-    <nav class="menu">
-        <a href="index.html"> <img src="../fotos/asd.png" alt="Logo Fullstack"></a>
-        <a href="produtos.html">Produtos</a>
-        <a href="#">Nossas lojas</a>
-        <a href="contato.html">Fale conosco</a>
-    </nav>
+<?php include_once('../includes/menu.php');?>
    
     <header>
         <h2>Nossas lojas</h2>
@@ -48,14 +37,6 @@
             
     </section>
 
-
-    <footer class="rodape">
-        <p id="formas_pagamento">Formas de pagamento:</p>
-
-        <img src="../fotos/logo pagamento.jpg" alt="Formas de pagamento">
-       
-        <p>&copy; Recode Pro</p>
-    </footer>
-
-</body>
-</html>
+<?php
+    include_once('../includes/footer.php');
+?>
