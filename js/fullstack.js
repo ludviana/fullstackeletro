@@ -32,3 +32,16 @@ let destaque = (imagem) =>{
        
     }
 };
+
+function verifica(){
+    let nome = window.document.getElementById('nome').value;
+    let ende = window.document.getElementById('ende').value;
+    let telef = window.document.getElementById('telef').value;
+
+    let botao = window.document.getElementById('sucesso');
+
+    if(nome.length > 0 && ende.length > 0 && telef.length > 0 ){
+        botao.style.visibility = "visible";
+        
+    }
+}

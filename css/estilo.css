@@ -85,6 +85,7 @@ header{
 .categorias ul li {
     list-style: none;
     text-align: left;
+    padding-bottom: 6px;
 }
 
 .produtos{
@@ -125,8 +126,24 @@ header{
     color: red;
     margin-top: 0px;
     padding-top: 5px;
+    
 }
 
+.comprar{
+    background-color: red;
+    border: 1px solid rgba(0, 0, 0, .6);
+    width: 120px;
+    height: 35px;
+    border-radius: 15px;
+
+}
+
+.comprar a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+}
 
 /* Fim produtos*/
 
@@ -198,4 +215,61 @@ header{
 }
 /*Fim contato*/
 
+
+/* Inicio COMPRAR */
+.center{
+    text-align: center;
+}
+
+.formcompra{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 200px;
+    text-align: center;
+}
+
+.labe{
+    
+    font-weight: bolder;
+    
+}
+.inp{
+    margin: 20px 0px;
+}
+.prod{
+    border: 2px solid red;
+    width: 300px;
+    border-radius: 5px;
+}
+
+.ops{
+    width: 150px;
+}
+
+
+#numqt{
+    width: 80px;
+}
+
+#sucesso{
+    background-color: rgb(50, 214, 85);
+    height: 60px;
+    width: 300px;
+    border-radius: 15px;
+    font-size: 17pt;
+    border: 1px solid rgba(0, 0, 0, .3);
+
+    visibility: hidden;
+}
+
+#cuidado{
+    background-color: red;
+    height: 60px;
+    width: 300px;
+    border-radius: 15px;
+    font-size: 17pt;
+    border: 1px solid rgba(0, 0, 0, .3);
+
+    visibility: hidden;
+}
 
