@@ -8,7 +8,7 @@ CREATE TABLE `lojarecode`.`pedidos` (
   `telefone` INT NULL,
   `nomeProduto` VARCHAR(100) NULL,
   `valorUnitario` DECIMAL(8,2) NULL,
-  `quantidade` VARCHAR(45) NULL,
+  `quantidade` int NULL,
   PRIMARY KEY (`idpedido`));
   
   
