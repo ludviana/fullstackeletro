@@ -23,12 +23,12 @@ let exibir_todos = () => {
 
 let destaque = (imagem) =>{
     console.log(imagem);
-    if(imagem.style.width == "130px"){
+    if(imagem.style.width == "150px"){
         imagem.style.width="260px"
         imagem.style.height = "260px";
     } else {
-       imagem.style.width = "130px"
-       imagem.style.height = "130px";
+       imagem.style.width = "150px"
+       imagem.style.height = "150px";
        
     }
 };
